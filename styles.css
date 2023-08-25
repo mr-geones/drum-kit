@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Pacifico&display=swap");
+
+* {
+  font-size: 16px;
+}
 
 body {
   text-align: center;
@@ -8,8 +12,8 @@ body {
 h1 {
   font-size: 5rem;
   color: #dbedf3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #da0463;
+  font-family: "Pacifico", cursive;
+  text-shadow: #da0463 1px 0 10px;
 }
 
 button:hover {
@@ -48,28 +52,17 @@ button:hover {
   margin: 10% auto;
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
-}
-
 .pressed {
-  box-shadow: 0 3px 4px 0 #dbedf3;
+  box-shadow: 0 0 10px 10px #da0463;
   opacity: 0.5;
-}
-
-.red {
-  color: red;
 }
 
 .drum {
   outline: none;
   border: 10px solid #404b69;
   font-size: 5rem;
-  font-family: "Arvo", cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #da0463;
+  font-family: "Dosis", sans-serif;
+  color: #dbedf3;
   text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
@@ -77,5 +70,7 @@ button:hover {
   height: 150px;
   text-align: center;
   margin: 10px;
-  background-color: white;
+  background-color: #dbedf3;
+  text-transform: uppercase;
+  text-shadow: #da0463 0px 0 10px;
 }
